@@ -27,10 +27,10 @@ export const BottomLine = () => {
 const Rings = () => {
   return (
     <>
-      <div className="absolute top-1/2 left-1/2 w-[65.875rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2" />
-      <div className="absolute top-1/2 left-1/2 w-[51.375rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2" />
-      <div className="absolute top-1/2 left-1/2 w-[36.125rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2" />
-      <div className="absolute top-1/2 left-1/2 w-[23.125rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2" />
+      <div className="absolute top-1/2 left-1/2 w-[65.875rem] aspect-square border border-n-2/15 rounded-full -translate-x-1/2 -translate-y-1/2" />
+      <div className="absolute top-1/2 left-1/2 w-[51.375rem] aspect-square border border-n-2/15 rounded-full -translate-x-1/2 -translate-y-1/2" />
+      <div className="absolute top-1/2 left-1/2 w-[36.125rem] aspect-square border border-n-2/15 rounded-full -translate-x-1/2 -translate-y-1/2" />
+      <div className="absolute top-1/2 left-1/2 w-[23.125rem] aspect-square border border-n-2/15 rounded-full -translate-x-1/2 -translate-y-1/2" />
     </>
   );
 };
@@ -50,7 +50,7 @@ export const BackgroundCircles = ({ parallaxRef }) => {
       <MouseParallax strength={0.07} parallaxContainerRef={parallaxRef}>
         <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[46deg]">
           <div
-            className={`w-2 h-2 -ml-1 -mt-36 bg-gradient-to-b from-[#DD734F] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+            className={`w-6 h-6 -ml-1 -mt-36 bg-gradient-to-b from-[#a66f03] to-[#A41E14] rounded-full transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           />
@@ -58,7 +58,7 @@ export const BackgroundCircles = ({ parallaxRef }) => {
 
         <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[56deg]">
           <div
-            className={`w-4 h-4 -ml-1 -mt-32 bg-gradient-to-b from-[#DD734F] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+            className={`w-6 h-6 -ml-1 -mt-32 bg-gradient-to-b from-[#0e0904] to-[#FDB01D] rounded-full transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           />
@@ -66,7 +66,7 @@ export const BackgroundCircles = ({ parallaxRef }) => {
 
         <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[54deg]">
           <div
-            className={`hidden w-4 h-4 -ml-1 mt-[12.9rem] bg-gradient-to-b from-[#B9AEDF] to-[#1A1A32] rounded-full xl:block transit transition-transform duration-500 ease-out ${
+            className={`hidden w-6 h-6 -ml-1 mt-[12.9rem] bg-gradient-to-b from-[#a21d14] to-[#0e0904] rounded-full xl:block transit transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           />
@@ -74,7 +74,7 @@ export const BackgroundCircles = ({ parallaxRef }) => {
 
         <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[65deg]">
           <div
-            className={`w-3 h-3 -ml-1.5 mt-52 bg-gradient-to-b from-[#B9AEDF] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+            className={`w-6 h-6 -ml-1.5 mt-52 bg-gradient-to-b from-[#d1dbc1] to-[#090a06] rounded-full transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           />
@@ -82,7 +82,7 @@ export const BackgroundCircles = ({ parallaxRef }) => {
 
         <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[85deg]">
           <div
-            className={`w-6 h-6 -ml-3 -mt-3 bg-gradient-to-b from-[#88E5BE] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+            className={`w-6 h-6 -ml-3 -mt-3 bg-gradient-to-b from-[#ffdc2f] to-[#fff2af] rounded-full transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           />
@@ -90,11 +90,12 @@ export const BackgroundCircles = ({ parallaxRef }) => {
 
         <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[70deg]">
           <div
-            className={`w-6 h-6 -ml-3 -mt-3 bg-gradient-to-b from-[#88E5BE] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+            className={`w-6 h-6 -ml-3 -mt-3 bg-gradient-to-b from-[#a41e14] to-[#FDB01D] rounded-full transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           />
         </div>
+       
       </MouseParallax>
     </div>
   );

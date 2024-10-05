@@ -10,11 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-three/drei": "^9.114.0",
+    "@react-three/fiber": "^8.17.8",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.9.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-globe.gl": "^2.27.2",
     "react-just-parallax": "^3.1.16",
     "react-router-dom": "^6.26.1",
-    "scroll-lock": "^2.1.5"
+    "scroll-lock": "^2.1.5",
+    "tailwind-merge": "^2.5.2",
+    "three": "^0.168.0",
+    "three-globe": "^2.31.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
@@ -29,6 +37,7 @@
     "globals": "^15.9.0",
     "postcss": "^8.4.42",
     "tailwindcss": "^3.4.10",
+    "typescript": "^5.6.2",
     "vite": "^5.4.1"
   }
 }
